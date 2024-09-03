@@ -2,6 +2,7 @@ import { Command } from "commander";
 import { collectTypeDefinitions } from "./collectTypeDefinitions";
 
 const program = new Command();
+console.log('Start Here')
 program
   .command("collect")
   .argument(
